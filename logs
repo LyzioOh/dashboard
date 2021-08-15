@@ -1,0 +1,1754 @@
+13:13:02 web.1    | started with pid 31351
+13:13:02 client.1 | started with pid 31352
+13:13:05 web.1    | => Booting Puma
+13:13:05 web.1    | => Rails 6.1.4 application starting in development 
+13:13:05 web.1    | => Run `bin/rails server --help` for more startup options
+13:13:05 client.1 | /Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack-cli/bin/cli.js:281
+13:13:05 client.1 | 				throw err;
+13:13:05 client.1 | 				^
+13:13:05 client.1 | 
+13:13:05 client.1 | ValidationError: Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+13:13:05 client.1 |  - configuration.node should be one of these:
+13:13:05 client.1 |    false | object { __dirname?, __filename?, global? }
+13:13:05 client.1 |    -> Include polyfills or mocks for various node stuff.
+13:13:05 client.1 |    Details:
+13:13:05 client.1 |     * configuration.node has an unknown property 'dgram'. These properties are valid:
+13:13:05 client.1 |       object { __dirname?, __filename?, global? }
+13:13:05 client.1 |       -> Options object for node compatibility features.
+13:13:05 client.1 |     * configuration.node has an unknown property 'fs'. These properties are valid:
+13:13:05 client.1 |       object { __dirname?, __filename?, global? }
+13:13:05 client.1 |       -> Options object for node compatibility features.
+13:13:05 client.1 |     * configuration.node has an unknown property 'net'. These properties are valid:
+13:13:05 client.1 |       object { __dirname?, __filename?, global? }
+13:13:05 client.1 |       -> Options object for node compatibility features.
+13:13:05 client.1 |     * configuration.node has an unknown property 'tls'. These properties are valid:
+13:13:05 client.1 |       object { __dirname?, __filename?, global? }
+13:13:05 client.1 |       -> Options object for node compatibility features.
+13:13:05 client.1 |     * configuration.node has an unknown property 'child_process'. These properties are valid:
+13:13:05 client.1 |       object { __dirname?, __filename?, global? }
+13:13:05 client.1 |       -> Options object for node compatibility features.
+13:13:05 client.1 |     at validate (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/node_modules/schema-utils/dist/validate.js:105:11)
+13:13:05 client.1 |     at validateSchema (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/lib/validateSchema.js:78:2)
+13:13:05 client.1 |     at create (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/lib/webpack.js:109:24)
+13:13:05 client.1 |     at webpack (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/lib/webpack.js:151:32)
+13:13:05 client.1 |     at f (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/lib/index.js:55:16)
+13:13:05 client.1 |     at processOptions (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack-cli/bin/cli.js:272:16)
+13:13:05 client.1 |     at /Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack-cli/bin/cli.js:364:3
+13:13:05 client.1 |     at Object.parse (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/yargs/yargs.js:576:18)
+13:13:05 client.1 |     at /Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack-cli/bin/cli.js:49:8
+13:13:05 client.1 |     at Object.<anonymous> (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack-cli/bin/cli.js:366:3)
+13:13:05 client.1 |     at Module._compile (internal/modules/cjs/loader.js:1063:30)
+13:13:05 client.1 |     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+13:13:05 client.1 |     at Module.load (internal/modules/cjs/loader.js:928:32)
+13:13:05 client.1 |     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+13:13:05 client.1 |     at Module.require (internal/modules/cjs/loader.js:952:19)
+13:13:05 client.1 |     at require (internal/modules/cjs/helpers.js:88:18)
+13:13:05 client.1 |     at runCli (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/bin/webpack.js:69:2)
+13:13:05 client.1 |     at Object.<anonymous> (/Users/lyzioh/code/LyzioOh/lyzio-dashboard/node_modules/webpack/bin/webpack.js:162:2)
+13:13:05 client.1 |     at Module._compile (internal/modules/cjs/loader.js:1063:30)
+13:13:05 client.1 |     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+13:13:05 client.1 |     at Module.load (internal/modules/cjs/loader.js:928:32)
+13:13:05 client.1 |     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+13:13:05 client.1 |     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+13:13:05 client.1 |     at internal/main/run_main_module.js:17:47 {
+13:13:05 client.1 |   errors: [
+13:13:05 client.1 |     {
+13:13:05 client.1 |       keyword: 'anyOf',
+13:13:05 client.1 |       dataPath: '.node',
+13:13:05 client.1 |       schemaPath: '#/anyOf',
+13:13:05 client.1 |       params: {},
+13:13:05 client.1 |       message: 'should match some schema in anyOf',
+13:13:05 client.1 |       schema: [ { enum: [ false ] }, { '$ref': '#/definitions/NodeOptions' } ],
+13:13:05 client.1 |       parentSchema: {
+13:13:05 client.1 |         description: 'Include polyfills or mocks for various node stuff.',
+13:13:05 client.1 |         anyOf: [ { enum: [Array] }, { '$ref': '#/definitions/NodeOptions' } ]
+13:13:05 client.1 |       },
+13:13:05 client.1 |       data: {
+13:13:05 client.1 |         dgram: 'empty',
+13:13:05 client.1 |         fs: 'empty',
+13:13:05 client.1 |         net: 'empty',
+13:13:05 client.1 |         tls: 'empty',
+13:13:05 client.1 |         child_process: 'empty'
+13:13:05 client.1 |       },
+13:13:05 client.1 |       children: [
+13:13:05 client.1 |         {
+13:13:05 client.1 |           keyword: 'enum',
+13:13:05 client.1 |           dataPath: '.node',
+13:13:05 client.1 |           schemaPath: '#/anyOf/0/enum',
+13:13:05 client.1 |           params: { allowedValues: [Array] },
+13:13:05 client.1 |           message: 'should be equal to one of the allowed values',
+13:13:05 client.1 |           schema: [ false ],
+13:13:05 client.1 |           parentSchema: { enum: [Array] },
+13:13:05 client.1 |           data: {
+13:13:05 client.1 |             dgram: 'empty',
+13:13:05 client.1 |             fs: 'empty',
+13:13:05 client.1 |             net: 'empty',
+13:13:05 client.1 |             tls: 'empty',
+13:13:05 client.1 |             child_process: 'empty'
+13:13:05 client.1 |           },
+13:13:05 client.1 |           children: undefined
+13:13:05 client.1 |         },
+13:13:05 client.1 |         {
+13:13:05 client.1 |           keyword: 'additionalProperties',
+13:13:05 client.1 |           dataPath: '.node',
+13:13:05 client.1 |           schemaPath: '#/definitions/NodeOptions/additionalProperties',
+13:13:05 client.1 |           params: { additionalProperty: 'dgram' },
+13:13:05 client.1 |           message: 'should NOT have additional properties',
+13:13:05 client.1 |           schema: false,
+13:13:05 client.1 |           parentSchema: {
+13:13:05 client.1 |             description: 'Options object for node compatibility features.',
+13:13:05 client.1 |             type: 'object',
+13:13:05 client.1 |             additionalProperties: false,
+13:13:06 client.1 |             properties: [Object]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           data: {
+13:13:06 client.1 |             dgram: 'empty',
+13:13:06 client.1 |             fs: 'empty',
+13:13:06 client.1 |             net: 'empty',
+13:13:06 client.1 |             tls: 'empty',
+13:13:06 client.1 |             child_process: 'empty'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           children: undefined
+13:13:06 client.1 |         },
+13:13:06 client.1 |         {
+13:13:06 client.1 |           keyword: 'additionalProperties',
+13:13:06 client.1 |           dataPath: '.node',
+13:13:06 client.1 |           schemaPath: '#/definitions/NodeOptions/additionalProperties',
+13:13:06 client.1 |           params: { additionalProperty: 'fs' },
+13:13:06 client.1 |           message: 'should NOT have additional properties',
+13:13:06 client.1 |           schema: false,
+13:13:06 client.1 |           parentSchema: {
+13:13:06 client.1 |             description: 'Options object for node compatibility features.',
+13:13:06 client.1 |             type: 'object',
+13:13:06 client.1 |             additionalProperties: false,
+13:13:06 client.1 |             properties: [Object]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           data: {
+13:13:06 client.1 |             dgram: 'empty',
+13:13:06 client.1 |             fs: 'empty',
+13:13:06 client.1 |             net: 'empty',
+13:13:06 client.1 |             tls: 'empty',
+13:13:06 client.1 |             child_process: 'empty'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           children: undefined
+13:13:06 client.1 |         },
+13:13:06 client.1 |         {
+13:13:06 client.1 |           keyword: 'additionalProperties',
+13:13:06 client.1 |           dataPath: '.node',
+13:13:06 client.1 |           schemaPath: '#/definitions/NodeOptions/additionalProperties',
+13:13:06 client.1 |           params: { additionalProperty: 'net' },
+13:13:06 client.1 |           message: 'should NOT have additional properties',
+13:13:06 client.1 |           schema: false,
+13:13:06 client.1 |           parentSchema: {
+13:13:06 client.1 |             description: 'Options object for node compatibility features.',
+13:13:06 client.1 |             type: 'object',
+13:13:06 client.1 |             additionalProperties: false,
+13:13:06 client.1 |             properties: [Object]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           data: {
+13:13:06 client.1 |             dgram: 'empty',
+13:13:06 client.1 |             fs: 'empty',
+13:13:06 client.1 |             net: 'empty',
+13:13:06 client.1 |             tls: 'empty',
+13:13:06 client.1 |             child_process: 'empty'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           children: undefined
+13:13:06 client.1 |         },
+13:13:06 client.1 |         {
+13:13:06 client.1 |           keyword: 'additionalProperties',
+13:13:06 client.1 |           dataPath: '.node',
+13:13:06 client.1 |           schemaPath: '#/definitions/NodeOptions/additionalProperties',
+13:13:06 client.1 |           params: { additionalProperty: 'tls' },
+13:13:06 client.1 |           message: 'should NOT have additional properties',
+13:13:06 client.1 |           schema: false,
+13:13:06 client.1 |           parentSchema: {
+13:13:06 client.1 |             description: 'Options object for node compatibility features.',
+13:13:06 client.1 |             type: 'object',
+13:13:06 client.1 |             additionalProperties: false,
+13:13:06 client.1 |             properties: [Object]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           data: {
+13:13:06 client.1 |             dgram: 'empty',
+13:13:06 client.1 |             fs: 'empty',
+13:13:06 client.1 |             net: 'empty',
+13:13:06 client.1 |             tls: 'empty',
+13:13:06 client.1 |             child_process: 'empty'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           children: undefined
+13:13:06 client.1 |         },
+13:13:06 client.1 |         {
+13:13:06 client.1 |           keyword: 'additionalProperties',
+13:13:06 client.1 |           dataPath: '.node',
+13:13:06 client.1 |           schemaPath: '#/definitions/NodeOptions/additionalProperties',
+13:13:06 client.1 |           params: { additionalProperty: 'child_process' },
+13:13:06 client.1 |           message: 'should NOT have additional properties',
+13:13:06 client.1 |           schema: false,
+13:13:06 client.1 |           parentSchema: {
+13:13:06 client.1 |             description: 'Options object for node compatibility features.',
+13:13:06 client.1 |             type: 'object',
+13:13:06 client.1 |             additionalProperties: false,
+13:13:06 client.1 |             properties: [Object]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           data: {
+13:13:06 client.1 |             dgram: 'empty',
+13:13:06 client.1 |             fs: 'empty',
+13:13:06 client.1 |             net: 'empty',
+13:13:06 client.1 |             tls: 'empty',
+13:13:06 client.1 |             child_process: 'empty'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           children: undefined
+13:13:06 client.1 |         }
+13:13:06 client.1 |       ]
+13:13:06 client.1 |     }
+13:13:06 client.1 |   ],
+13:13:06 client.1 |   schema: {
+13:13:06 client.1 |     definitions: {
+13:13:06 client.1 |       Amd: {
+13:13:06 client.1 |         description: 'Set the value of `require.amd` and `define.amd`. Or disable AMD support.',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           {
+13:13:06 client.1 |             description: 'You can pass `false` to disable AMD support.',
+13:13:06 client.1 |             enum: [Array]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           {
+13:13:06 client.1 |             description: 'You can pass an object to set the value of `require.amd` and `define.amd`.',
+13:13:06 client.1 |             type: 'object'
+13:13:06 client.1 |           }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetFilterItemTypes: {
+13:13:06 client.1 |         description: 'Filtering value, regexp or function.',
+13:13:06 client.1 |         cli: { helper: true },
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { instanceof: 'RegExp', tsType: 'RegExp' },
+13:13:06 client.1 |           { type: 'string', absolutePath: false },
+13:13:06 client.1 |           {
+13:13:06 client.1 |             instanceof: 'Function',
+13:13:06 client.1 |             tsType: "((name: string, asset: import('../lib/stats/DefaultStatsFactoryPlugin').StatsAsset) => boolean)"
+13:13:06 client.1 |           }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetFilterTypes: {
+13:13:06 client.1 |         description: 'Filtering modules.',
+13:13:06 client.1 |         cli: { helper: true },
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { type: 'array', items: [Object] },
+13:13:06 client.1 |           { '$ref': '#/definitions/AssetFilterItemTypes' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetGeneratorDataUrl: {
+13:13:06 client.1 |         description: 'The options for data url generator.',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { '$ref': '#/definitions/AssetGeneratorDataUrlOptions' },
+13:13:06 client.1 |           { '$ref': '#/definitions/AssetGeneratorDataUrlFunction' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetGeneratorDataUrlFunction: {
+13:13:06 client.1 |         description: 'Function that executes for module and should return an DataUrl string.',
+13:13:06 client.1 |         instanceof: 'Function',
+13:13:06 client.1 |         tsType: "((source: string | Buffer, context: { filename: string, module: import('../lib/Module') }) => string)"
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetGeneratorDataUrlOptions: {
+13:13:06 client.1 |         description: 'Options object for data url generation.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: {
+13:13:06 client.1 |           encoding: {
+13:13:06 client.1 |             description: 'Asset encoding (defaults to base64).',
+13:13:06 client.1 |             enum: [Array]
+13:13:06 client.1 |           },
+13:13:06 client.1 |           mimetype: {
+13:13:06 client.1 |             description: 'Asset mimetype (getting from file extension by default).',
+13:13:06 client.1 |             type: 'string'
+13:13:06 client.1 |           }
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetGeneratorOptions: {
+13:13:06 client.1 |         description: 'Generator options for asset modules.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         implements: [
+13:13:06 client.1 |           '#/definitions/AssetInlineGeneratorOptions',
+13:13:06 client.1 |           '#/definitions/AssetResourceGeneratorOptions'
+13:13:06 client.1 |         ],
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: {
+13:13:06 client.1 |           dataUrl: { '$ref': '#/definitions/AssetGeneratorDataUrl' },
+13:13:06 client.1 |           emit: {
+13:13:06 client.1 |             description: "Emit an output asset from this asset module. This can be set to 'false' to omit emitting e. g. for SSR.",
+13:13:06 client.1 |             type: 'boolean'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           filename: { '$ref': '#/definitions/FilenameTemplate' },
+13:13:06 client.1 |           publicPath: { '$ref': '#/definitions/RawPublicPath' }
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetInlineGeneratorOptions: {
+13:13:06 client.1 |         description: 'Generator options for asset/inline modules.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: { dataUrl: { '$ref': '#/definitions/AssetGeneratorDataUrl' } }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetModuleFilename: {
+13:13:06 client.1 |         description: "The filename of asset modules as relative path inside the 'output.path' directory.",
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { type: 'string', absolutePath: false },
+13:13:06 client.1 |           {
+13:13:06 client.1 |             instanceof: 'Function',
+13:13:06 client.1 |             tsType: '((pathData: import("../lib/Compilation").PathData, assetInfo?: import("../lib/Compilation").AssetInfo) => string)'
+13:13:06 client.1 |           }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetParserDataUrlFunction: {
+13:13:06 client.1 |         description: 'Function that executes for module and should return whenever asset should be inlined as DataUrl.',
+13:13:06 client.1 |         instanceof: 'Function',
+13:13:06 client.1 |         tsType: "((source: string | Buffer, context: { filename: string, module: import('../lib/Module') }) => boolean)"
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetParserDataUrlOptions: {
+13:13:06 client.1 |         description: 'Options object for DataUrl condition.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: {
+13:13:06 client.1 |           maxSize: {
+13:13:06 client.1 |             description: 'Maximum size of asset that should be inline as modules. Default: 8kb.',
+13:13:06 client.1 |             type: 'number'
+13:13:06 client.1 |           }
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetParserOptions: {
+13:13:06 client.1 |         description: 'Parser options for asset modules.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: {
+13:13:06 client.1 |           dataUrlCondition: {
+13:13:06 client.1 |             description: 'The condition for inlining the asset as DataUrl.',
+13:13:06 client.1 |             anyOf: [Array]
+13:13:06 client.1 |           }
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AssetResourceGeneratorOptions: {
+13:13:06 client.1 |         description: 'Generator options for asset/resource modules.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: {
+13:13:06 client.1 |           emit: {
+13:13:06 client.1 |             description: "Emit an output asset from this asset module. This can be set to 'false' to omit emitting e. g. for SSR.",
+13:13:06 client.1 |             type: 'boolean'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           filename: { '$ref': '#/definitions/FilenameTemplate' },
+13:13:06 client.1 |           publicPath: { '$ref': '#/definitions/RawPublicPath' }
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       AuxiliaryComment: {
+13:13:06 client.1 |         description: 'Add a comment in the UMD wrapper.',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           {
+13:13:06 client.1 |             description: 'Append the same comment above each import style.',
+13:13:06 client.1 |             type: 'string'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           { '$ref': '#/definitions/LibraryCustomUmdCommentObject' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       Bail: {
+13:13:06 client.1 |         description: 'Report the first error as a hard error instead of tolerating it.',
+13:13:06 client.1 |         type: 'boolean'
+13:13:06 client.1 |       },
+13:13:06 client.1 |       CacheOptions: {
+13:13:06 client.1 |         description: 'Cache generated modules and chunks to improve performance for multiple incremental builds.',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { description: 'Enable in memory caching.', enum: [Array] },
+13:13:06 client.1 |           { '$ref': '#/definitions/CacheOptionsNormalized' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       CacheOptionsNormalized: {
+13:13:06 client.1 |         description: 'Cache generated modules and chunks to improve performance for multiple incremental builds.',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { description: 'Disable caching.', enum: [Array] },
+13:13:06 client.1 |           { '$ref': '#/definitions/MemoryCacheOptions' },
+13:13:06 client.1 |           { '$ref': '#/definitions/FileCacheOptions' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       Charset: {
+13:13:06 client.1 |         description: 'Add charset attribute for script tag.',
+13:13:06 client.1 |         type: 'boolean'
+13:13:06 client.1 |       },
+13:13:06 client.1 |       ChunkFilename: {
+13:13:06 client.1 |         description: "Specifies the filename template of output files of non-initial chunks on disk. You must **not** specify an absolute path here, but the path may contain folders separated by '/'! The specified path is joined with the value of the 'output.path' option to determine the location on disk.",
+13:13:06 client.1 |         oneOf: [ { '$ref': '#/definitions/FilenameTemplate' } ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       ChunkFormat: {
+13:13:06 client.1 |         description: "The format of chunks (formats included by default are 'array-push' (web/WebWorker), 'commonjs' (node.js), 'module' (ESM), but others might be added by plugins).",
+13:13:06 client.1 |         anyOf: [ { enum: [Array] }, { type: 'string' } ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       ChunkLoadTimeout: {
+13:13:06 client.1 |         description: 'Number of milliseconds before chunk request expires.',
+13:13:06 client.1 |         type: 'number'
+13:13:06 client.1 |       },
+13:13:06 client.1 |       ChunkLoading: {
+13:13:06 client.1 |         description: "The method of loading chunks (methods included by default are 'jsonp' (web), 'import' (ESM), 'importScripts' (WebWorker), 'require' (sync node.js), 'async-node' (async node.js), but others might be added by plugins).",
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { enum: [Array] },
+13:13:06 client.1 |           { '$ref': '#/definitions/ChunkLoadingType' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       ChunkLoadingGlobal: {
+13:13:06 client.1 |         description: 'The global variable used by webpack for loading of chunks.',
+13:13:06 client.1 |         type: 'string'
+13:13:06 client.1 |       },
+13:13:06 client.1 |       ChunkLoadingType: {
+13:13:06 client.1 |         description: "The method of loading chunks (methods included by default are 'jsonp' (web), 'import' (ESM), 'importScripts' (WebWorker), 'require' (sync node.js), 'async-node' (async node.js), but others might be added by plugins).",
+13:13:06 client.1 |         anyOf: [ { enum: [Array] }, { type: 'string' } ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       Clean: {
+13:13:06 client.1 |         description: 'Clean the output directory before emit.',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { type: 'boolean' },
+13:13:06 client.1 |           { '$ref': '#/definitions/CleanOptions' }
+13:13:06 client.1 |         ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       CleanOptions: {
+13:13:06 client.1 |         description: 'Advanced options for cleaning assets.',
+13:13:06 client.1 |         type: 'object',
+13:13:06 client.1 |         additionalProperties: false,
+13:13:06 client.1 |         properties: {
+13:13:06 client.1 |           dry: {
+13:13:06 client.1 |             description: 'Log the assets that should be removed instead of deleting them.',
+13:13:06 client.1 |             type: 'boolean'
+13:13:06 client.1 |           },
+13:13:06 client.1 |           keep: { description: 'Keep these assets.', anyOf: [Array] }
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       CompareBeforeEmit: {
+13:13:06 client.1 |         description: 'Check if to be emitted file already exists and have the same content before writing to output filesystem.',
+13:13:06 client.1 |         type: 'boolean'
+13:13:06 client.1 |       },
+13:13:06 client.1 |       Context: {
+13:13:06 client.1 |         description: 'The base directory (absolute path!) for resolving the `entry` option. If `output.pathinfo` is set, the included pathinfo is shortened to this directory.',
+13:13:06 client.1 |         type: 'string',
+13:13:06 client.1 |         absolutePath: true
+13:13:06 client.1 |       },
+13:13:06 client.1 |       CrossOriginLoading: {
+13:13:06 client.1 |         description: 'This option enables cross-origin loading of chunks.',
+13:13:06 client.1 |         enum: [ false, 'anonymous', 'use-credentials' ]
+13:13:06 client.1 |       },
+13:13:06 client.1 |       Dependencies: {
+13:13:06 client.1 |         description: 'References to other configurations to depend on.',
+13:13:06 client.1 |         type: 'array',
+13:13:06 client.1 |         items: {
+13:13:06 client.1 |           description: 'References to another configuration to depend on.',
+13:13:06 client.1 |           type: 'string'
+13:13:06 client.1 |         }
+13:13:06 client.1 |       },
+13:13:06 client.1 |       DevServer: {
+13:13:06 client.1 |         description: 'Options for the webpack-dev-server.',
+13:13:06 client.1 |         type: 'object'
+13:13:06 client.1 |       },
+13:13:06 client.1 |       DevTool: {
+13:13:06 client.1 |         description: 'A developer tool to enhance debugging (false | eval | [inline-|hidden-|eval-][nosources-][cheap-[module-]]source-map).',
+13:13:06 client.1 |         anyOf: [
+13:13:06 client.1 |           { enum: [Array] },
+13:13:06 client.1 | exited with code 1
+13:13:06 system   | sending SIGTERM to all processes
+13:13:06          |           {
+13:13:06          |             type: 'string',
+13:13:06          |             pattern: '^(inline-|hidden-|eval-)?(nosources-)?(cheap-(module-)?)?source-map$'
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06 web.1    | Exiting
+13:13:06          |       },
+13:13:06          |       DevtoolFallbackModuleFilenameTemplate: {
+13:13:06          |         description: 'Similar to `output.devtoolModuleFilenameTemplate`, but used in the case of duplicate module identifiers.',
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'string' },
+13:13:06          |           { instanceof: 'Function', tsType: 'Function' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       DevtoolModuleFilenameTemplate: {
+13:13:06          |         description: 'Filename template string of function for the sources array in a generated SourceMap.',
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'string' },
+13:13:06          |           { instanceof: 'Function', tsType: 'Function' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       DevtoolNamespace: {
+13:13:06          |         description: "Module namespace to use when interpolating filename template string for the sources array in a generated SourceMap. Defaults to `output.library` if not set. It's useful for avoiding runtime collisions in sourcemaps from multiple webpack projects built as libraries.",
+13:13:06          |         type: 'string'
+13:13:06          |       },
+13:13:06          |       EmptyGeneratorOptions: {
+13:13:06          |         description: 'No generator options are supported for this module type.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false
+13:13:06          |       },
+13:13:06          |       EmptyParserOptions: {
+13:13:06          |         description: 'No parser options are supported for this module type.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false
+13:13:06          |       },
+13:13:06          |       EnabledChunkLoadingTypes: {
+13:13:06          |         description: 'List of chunk loading types enabled for use by entry points.',
+13:13:06          |         type: 'array',
+13:13:06          |         items: { '$ref': '#/definitions/ChunkLoadingType' }
+13:13:06          |       },
+13:13:06          |       EnabledLibraryTypes: {
+13:13:06          |         description: 'List of library types enabled for use by entry points.',
+13:13:06          |         type: 'array',
+13:13:06          |         items: { '$ref': '#/definitions/LibraryType' }
+13:13:06          |       },
+13:13:06          |       EnabledWasmLoadingTypes: {
+13:13:06          |         description: 'List of wasm loading types enabled for use by entry points.',
+13:13:06          |         type: 'array',
+13:13:06          |         items: { '$ref': '#/definitions/WasmLoadingType' }
+13:13:06          |       },
+13:13:06          |       Entry: {
+13:13:06          |         description: 'The entry point(s) of the compilation.',
+13:13:06          |         anyOf: [
+13:13:06          |           { '$ref': '#/definitions/EntryDynamic' },
+13:13:06          |           { '$ref': '#/definitions/EntryStatic' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       EntryDescription: {
+13:13:06          |         description: 'An object with entry point description.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           chunkLoading: { '$ref': '#/definitions/ChunkLoading' },
+13:13:06          |           dependOn: {
+13:13:06          |             description: 'The entrypoints that the current entrypoint depend on. They must be loaded when this entrypoint is loaded.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           filename: { '$ref': '#/definitions/EntryFilename' },
+13:13:06          |           import: { '$ref': '#/definitions/EntryItem' },
+13:13:06          |           layer: { '$ref': '#/definitions/Layer' },
+13:13:06          |           library: { '$ref': '#/definitions/LibraryOptions' },
+13:13:06          |           publicPath: { '$ref': '#/definitions/PublicPath' },
+13:13:06          |           runtime: { '$ref': '#/definitions/EntryRuntime' },
+13:13:06          |           wasmLoading: { '$ref': '#/definitions/WasmLoading' }
+13:13:06          |         },
+13:13:06          |         required: [ 'import' ]
+13:13:06          |       },
+13:13:06          |       EntryDescriptionNormalized: {
+13:13:06          |         description: 'An object with entry point description.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           chunkLoading: { '$ref': '#/definitions/ChunkLoading' },
+13:13:06          |           dependOn: {
+13:13:06          |             description: 'The entrypoints that the current entrypoint depend on. They must be loaded when this entrypoint is loaded.',
+13:13:06          |             type: 'array',
+13:13:06          |             items: [Object],
+13:13:06          |             minItems: 1,
+13:13:06          |             uniqueItems: true
+13:13:06          |           },
+13:13:06          |           filename: { '$ref': '#/definitions/Filename' },
+13:13:06          |           import: {
+13:13:06          |             description: 'Module(s) that are loaded upon startup. The last one is exported.',
+13:13:06          |             type: 'array',
+13:13:06          |             items: [Object],
+13:13:06          |             minItems: 1,
+13:13:06          |             uniqueItems: true
+13:13:06          |           },
+13:13:06          |           layer: { '$ref': '#/definitions/Layer' },
+13:13:06          |           library: { '$ref': '#/definitions/LibraryOptions' },
+13:13:06          |           publicPath: { '$ref': '#/definitions/PublicPath' },
+13:13:06          |           runtime: { '$ref': '#/definitions/EntryRuntime' },
+13:13:06          |           wasmLoading: { '$ref': '#/definitions/WasmLoading' }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       EntryDynamic: {
+13:13:06          |         description: 'A Function returning an entry object, an entry string, an entry array or a promise to these things.',
+13:13:06          |         instanceof: 'Function',
+13:13:06          |         tsType: '(() => EntryStatic | Promise<EntryStatic>)'
+13:13:06          |       },
+13:13:06          |       EntryDynamicNormalized: {
+13:13:06          |         description: 'A Function returning a Promise resolving to a normalized entry.',
+13:13:06          |         instanceof: 'Function',
+13:13:06          |         tsType: '(() => Promise<EntryStaticNormalized>)'
+13:13:06          |       },
+13:13:06          |       EntryFilename: {
+13:13:06          |         description: "Specifies the filename of the output file on disk. You must **not** specify an absolute path here, but the path may contain folders separated by '/'! The specified path is joined with the value of the 'output.path' option to determine the location on disk.",
+13:13:06          |         oneOf: [ { '$ref': '#/definitions/FilenameTemplate' } ]
+13:13:06          |       },
+13:13:06          |       EntryItem: {
+13:13:06          |         description: 'Module(s) that are loaded upon startup.',
+13:13:06          |         anyOf: [
+13:13:06          |           {
+13:13:06          |             description: 'All modules are loaded upon startup. The last one is exported.',
+13:13:06          |             type: 'array',
+13:13:06          |             items: [Object],
+13:13:06          |             minItems: 1,
+13:13:06          |             uniqueItems: true
+13:13:06          |           },
+13:13:06          |           {
+13:13:06          |             description: 'The string is resolved to a module which is loaded upon startup.',
+13:13:06          |             type: 'string',
+13:13:06          |             minLength: 1
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       EntryNormalized: {
+13:13:06          |         description: 'The entry point(s) of the compilation.',
+13:13:06          |         anyOf: [
+13:13:06          |           { '$ref': '#/definitions/EntryDynamicNormalized' },
+13:13:06          |           { '$ref': '#/definitions/EntryStaticNormalized' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       EntryObject: {
+13:13:06          |         description: 'Multiple entry bundles are created. The key is the entry name. The value can be a string, an array or an entry description object.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: {
+13:13:06          |           description: 'An entry point with name.',
+13:13:06          |           anyOf: [ [Object], [Object] ]
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       EntryRuntime: {
+13:13:06          |         description: 'The name of the runtime chunk. If set a runtime chunk with this name is created or an existing entrypoint is used as runtime.',
+13:13:06          |         anyOf: [ { enum: [Array] }, { type: 'string', minLength: 1 } ]
+13:13:06          |       },
+13:13:06          |       EntryStatic: {
+13:13:06          |         description: 'A static entry description.',
+13:13:06          |         anyOf: [
+13:13:06          |           { '$ref': '#/definitions/EntryObject' },
+13:13:06          |           { '$ref': '#/definitions/EntryUnnamed' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       EntryStaticNormalized: {
+13:13:06          |         description: 'Multiple entry bundles are created. The key is the entry name. The value is an entry description object.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: {
+13:13:06          |           description: 'An object with entry point description.',
+13:13:06          |           oneOf: [ [Object] ]
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       EntryUnnamed: {
+13:13:06          |         description: 'An entry point without name.',
+13:13:06          |         oneOf: [ { '$ref': '#/definitions/EntryItem' } ]
+13:13:06          |       },
+13:13:06          |       Environment: {
+13:13:06          |         description: 'The abilities of the environment where the webpack generated code should run.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           arrowFunction: {
+13:13:06          |             description: "The environment supports arrow functions ('() => { ... }').",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           bigIntLiteral: {
+13:13:06          |             description: 'The environment supports BigInt as literal (123n).',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           const: {
+13:13:06          |             description: 'The environment supports const and let for variable declarations.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           destructuring: {
+13:13:06          |             description: "The environment supports destructuring ('{ a, b } = obj').",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           dynamicImport: {
+13:13:06          |             description: 'The environment supports an async import() function to import EcmaScript modules.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           forOf: {
+13:13:06          |             description: "The environment supports 'for of' iteration ('for (const x of array) { ... }').",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           module: {
+13:13:06          |             description: "The environment supports EcmaScript Module syntax to import EcmaScript modules (import ... from '...').",
+13:13:06          |             type: 'boolean'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       Experiments: {
+13:13:06          |         description: 'Enables/Disables experiments (experimental features with relax SemVer compatibility).',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           asset: {
+13:13:06          |             description: "Allow module type 'asset' to generate assets.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           asyncWebAssembly: {
+13:13:06          |             description: 'Support WebAssembly as asynchronous EcmaScript Module.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           buildHttp: {
+13:13:06          |             description: 'Build http(s): urls using a lockfile and resource content cache.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           executeModule: {
+13:13:06          |             description: 'Enable build-time execution of modules from the module graph for plugins and loaders.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           layers: {
+13:13:06          |             description: 'Enable module and chunk layers.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           lazyCompilation: {
+13:13:06          |             description: 'Compile entrypoints and import()s only when they are accessed.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           outputModule: {
+13:13:06          |             description: 'Allow output javascript files as module source type.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           syncWebAssembly: {
+13:13:06          |             description: 'Support WebAssembly as synchronous EcmaScript Module (outdated).',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           topLevelAwait: {
+13:13:06          |             description: 'Allow using top-level-await in EcmaScript Modules.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       ExternalItem: {
+13:13:06          |         description: "Specify dependency that shouldn't be resolved by webpack, but should become dependencies of the resulting bundle. The kind of the dependency depends on `output.libraryTarget`.",
+13:13:06          |         anyOf: [
+13:13:06          |           {
+13:13:06          |             description: 'Every matched dependency becomes external.',
+13:13:06          |             instanceof: 'RegExp',
+13:13:06          |             tsType: 'RegExp'
+13:13:06          |           },
+13:13:06          |           {
+13:13:06          |             description: 'An exact matched dependency becomes external. The same string is used as external dependency.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           {
+13:13:06          |             description: 'If an dependency matches exactly a property of the object, the property value is used as dependency.',
+13:13:06          |             type: 'object',
+13:13:06          |             additionalProperties: [Object],
+13:13:06          |             properties: [Object]
+13:13:06          |           },
+13:13:06          |           {
+13:13:06          |             description: 'The function is called on each dependency (`function(context, request, callback(err, result))`).',
+13:13:06          |             instanceof: 'Function',
+13:13:06          |             tsType: '(((data: ExternalItemFunctionData, callback: (err?: Error, result?: ExternalItemValue) => void) => void) | ((data: ExternalItemFunctionData) => Promise<ExternalItemValue>))'
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       ExternalItemFunctionData: {
+13:13:06          |         description: "Data object passed as argument when a function is set for 'externals'.",
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           context: {
+13:13:06          |             description: 'The directory in which the request is placed.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           contextInfo: {
+13:13:06          |             description: 'Contextual information.',
+13:13:06          |             type: 'object',
+13:13:06          |             tsType: "import('../lib/ModuleFactory').ModuleFactoryCreateDataContextInfo"
+13:13:06          |           },
+13:13:06          |           dependencyType: {
+13:13:06          |             description: 'The category of the referencing dependencies.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           getResolve: {
+13:13:06          |             description: 'Get a resolve function with the current resolver options.',
+13:13:06          |             instanceof: 'Function',
+13:13:06          |             tsType: '((options?: ResolveOptions) => ((context: string, request: string, callback: (err?: Error, result?: string) => void) => void) | ((context: string, request: string) => Promise<string>))'
+13:13:06          |           },
+13:13:06          |           request: {
+13:13:06          |             description: 'The request as written by the user in the require/import expression/statement.',
+13:13:06          |             type: 'string'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       ExternalItemValue: {
+13:13:06          |         description: 'The dependency used for the external.',
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object] },
+13:13:06          |           {
+13:13:06          |             description: '`true`: The dependency name is used as target of the external.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           {
+13:13:06          |             description: 'The target of the external.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           { type: 'object' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       Externals: {
+13:13:06          |         description: "Specify dependencies that shouldn't be resolved by webpack, but should become dependencies of the resulting bundle. The kind of the dependency depends on `output.libraryTarget`.",
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object] },
+13:13:06          |           { '$ref': '#/definitions/ExternalItem' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       ExternalsPresets: {
+13:13:06          |         description: 'Enable presets of externals for specific targets.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           electron: {
+13:13:06          |             description: "Treat common electron built-in modules in main and preload context like 'electron', 'ipc' or 'shell' as external and load them via require() when used.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           electronMain: {
+13:13:06          |             description: "Treat electron built-in modules in the main context like 'app', 'ipc-main' or 'shell' as external and load them via require() when used.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           electronPreload: {
+13:13:06          |             description: "Treat electron built-in modules in the preload context like 'web-frame', 'ipc-renderer' or 'shell' as external and load them via require() when used.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           electronRenderer: {
+13:13:06          |             description: "Treat electron built-in modules in the renderer context like 'web-frame', 'ipc-renderer' or 'shell' as external and load them via require() when used.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           node: {
+13:13:06          |             description: 'Treat node.js built-in modules like fs, path or vm as external and load them via require() when used.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           nwjs: {
+13:13:06          |             description: 'Treat NW.js legacy nw.gui module as external and load it via require() when used.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           web: {
+13:13:06          |             description: "Treat references to 'http(s)://...' and 'std:...' as external and load them via import when used (Note that this changes execution order as externals are executed before any other code in the chunk).",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           webAsync: {
+13:13:06          |             description: "Treat references to 'http(s)://...' and 'std:...' as external and load them via async import() when used (Note that this external type is an async module, which has various effects on the execution).",
+13:13:06          |             type: 'boolean'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       ExternalsType: {
+13:13:06          |         description: "Specifies the default type of externals ('amd*', 'umd*', 'system' and 'jsonp' depend on output.libraryTarget set to the same value).",
+13:13:06          |         enum: [
+13:13:06          |           'var',       'module',
+13:13:06          |           'assign',    'this',
+13:13:06          |           'window',    'self',
+13:13:06          |           'global',    'commonjs',
+13:13:06          |           'commonjs2', 'commonjs-module',
+13:13:06          |           'amd',       'amd-require',
+13:13:06          |           'umd',       'umd2',
+13:13:06          |           'jsonp',     'system',
+13:13:06          |           'promise',   'import',
+13:13:06          |           'script',    'node-commonjs'
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       FileCacheOptions: {
+13:13:06          |         description: 'Options object for persistent file-based caching.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           allowCollectingMemory: {
+13:13:06          |             description: 'Allows to collect unused memory allocated during deserialization. This requires copying data into smaller buffers and has a performance cost.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           buildDependencies: {
+13:13:06          |             description: "Dependencies the build depends on (in multiple categories, default categories: 'defaultWebpack').",
+13:13:06          |             type: 'object',
+13:13:06          |             additionalProperties: [Object]
+13:13:06          |           },
+13:13:06          |           cacheDirectory: {
+13:13:06          |             description: 'Base directory for the cache (defaults to node_modules/.cache/webpack).',
+13:13:06          |             type: 'string',
+13:13:06          |             absolutePath: true
+13:13:06          |           },
+13:13:06          |           cacheLocation: {
+13:13:06          |             description: 'Locations for the cache (defaults to cacheDirectory / name).',
+13:13:06          |             type: 'string',
+13:13:06          |             absolutePath: true
+13:13:06          |           },
+13:13:06          |           compression: {
+13:13:06          |             description: 'Compression type used for the cache files.',
+13:13:06          |             enum: [Array]
+13:13:06          |           },
+13:13:06          |           hashAlgorithm: {
+13:13:06          |             description: 'Algorithm used for generation the hash (see node.js crypto package).',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           idleTimeout: {
+13:13:06          |             description: 'Time in ms after which idle period the cache storing should happen.',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 0
+13:13:06          |           },
+13:13:06          |           idleTimeoutAfterLargeChanges: {
+13:13:06          |             description: 'Time in ms after which idle period the cache storing should happen when larger changes has been detected (cumulative build time > 2 x avg cache store time).',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 0
+13:13:06          |           },
+13:13:06          |           idleTimeoutForInitialStore: {
+13:13:06          |             description: 'Time in ms after which idle period the initial cache storing should happen.',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 0
+13:13:06          |           },
+13:13:06          |           immutablePaths: {
+13:13:06          |             description: 'List of paths that are managed by a package manager and contain a version or hash in its path so all files are immutable.',
+13:13:06          |             type: 'array',
+13:13:06          |             items: [Object]
+13:13:06          |           },
+13:13:06          |           managedPaths: {
+13:13:06          |             description: 'List of paths that are managed by a package manager and can be trusted to not be modified otherwise.',
+13:13:06          |             type: 'array',
+13:13:06          |             items: [Object]
+13:13:06          |           },
+13:13:06          |           maxAge: {
+13:13:06          |             description: 'Time for which unused cache entries stay in the filesystem cache at minimum (in milliseconds).',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 0
+13:13:06          |           },
+13:13:06          |           maxMemoryGenerations: {
+13:13:06          |             description: 'Number of generations unused cache entries stay in memory cache at minimum (0 = no memory cache used, 1 = may be removed after unused for a single compilation, ..., Infinity: kept forever). Cache entries will be deserialized from disk when removed from memory cache.',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 0
+13:13:06          |           },
+13:13:06          |           name: {
+13:13:06          |             description: 'Name for the cache. Different names will lead to different coexisting caches.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           profile: {
+13:13:06          |             description: 'Track and log detailed timing information for individual cache items.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           store: {
+13:13:06          |             description: 'When to store data to the filesystem. (pack: Store data when compiler is idle in a single file).',
+13:13:06          |             enum: [Array]
+13:13:06          |           },
+13:13:06          |           type: { description: 'Filesystem caching.', enum: [Array] },
+13:13:06          |           version: {
+13:13:06          |             description: "Version of the cache data. Different versions won't allow to reuse the cache and override existing content. Update the version when config changed in a way which doesn't allow to reuse cache. This will invalidate the cache.",
+13:13:06          |             type: 'string'
+13:13:06          |           }
+13:13:06          |         },
+13:13:06          |         required: [ 'type' ]
+13:13:06          |       },
+13:13:06          |       Filename: {
+13:13:06          |         description: "Specifies the filename of output files on disk. You must **not** specify an absolute path here, but the path may contain folders separated by '/'! The specified path is joined with the value of the 'output.path' option to determine the location on disk.",
+13:13:06          |         oneOf: [ { '$ref': '#/definitions/FilenameTemplate' } ]
+13:13:06          |       },
+13:13:06          |       FilenameTemplate: {
+13:13:06          |         description: "Specifies the filename template of output files on disk. You must **not** specify an absolute path here, but the path may contain folders separated by '/'! The specified path is joined with the value of the 'output.path' option to determine the location on disk.",
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'string', absolutePath: false, minLength: 1 },
+13:13:06          |           {
+13:13:06          |             instanceof: 'Function',
+13:13:06          |             tsType: '((pathData: import("../lib/Compilation").PathData, assetInfo?: import("../lib/Compilation").AssetInfo) => string)'
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       FilterItemTypes: {
+13:13:06          |         description: 'Filtering value, regexp or function.',
+13:13:06          |         cli: { helper: true },
+13:13:06          |         anyOf: [
+13:13:06          |           { instanceof: 'RegExp', tsType: 'RegExp' },
+13:13:06          |           { type: 'string', absolutePath: false },
+13:13:06          |           {
+13:13:06          |             instanceof: 'Function',
+13:13:06          |             tsType: '((value: string) => boolean)'
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       FilterTypes: {
+13:13:06          |         description: 'Filtering values.',
+13:13:06          |         cli: { helper: true },
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object] },
+13:13:06          |           { '$ref': '#/definitions/FilterItemTypes' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       GeneratorOptionsByModuleType: {
+13:13:06          |         description: 'Specify options for each generator.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: {
+13:13:06          |           description: 'Options for generating.',
+13:13:06          |           type: 'object',
+13:13:06          |           additionalProperties: true
+13:13:06          |         },
+13:13:06          |         properties: {
+13:13:06          |           asset: { '$ref': '#/definitions/AssetGeneratorOptions' },
+13:13:06          |           'asset/inline': { '$ref': '#/definitions/AssetInlineGeneratorOptions' },
+13:13:06          |           'asset/resource': { '$ref': '#/definitions/AssetResourceGeneratorOptions' },
+13:13:06          |           javascript: { '$ref': '#/definitions/EmptyGeneratorOptions' },
+13:13:06          |           'javascript/auto': { '$ref': '#/definitions/EmptyGeneratorOptions' },
+13:13:06          |           'javascript/dynamic': { '$ref': '#/definitions/EmptyGeneratorOptions' },
+13:13:06          |           'javascript/esm': { '$ref': '#/definitions/EmptyGeneratorOptions' }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       GlobalObject: {
+13:13:06          |         description: 'An expression which is used to address the global object/scope in runtime code.',
+13:13:06          |         type: 'string',
+13:13:06          |         minLength: 1
+13:13:06          |       },
+13:13:06          |       HashDigest: { description: 'Digest type used for the hash.', type: 'string' },
+13:13:06          |       HashDigestLength: {
+13:13:06          |         description: 'Number of chars which are used for the hash.',
+13:13:06          |         type: 'number',
+13:13:06          |         minimum: 1
+13:13:06          |       },
+13:13:06          |       HashFunction: {
+13:13:06          |         description: 'Algorithm used for generation the hash (see node.js crypto package).',
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'string', minLength: 1 },
+13:13:06          |           {
+13:13:06          |             instanceof: 'Function',
+13:13:06          |             tsType: "typeof import('../lib/util/Hash')"
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       HashSalt: {
+13:13:06          |         description: 'Any string which is added to the hash to salt it.',
+13:13:06          |         type: 'string',
+13:13:06          |         minLength: 1
+13:13:06          |       },
+13:13:06          |       HotUpdateChunkFilename: {
+13:13:06          |         description: 'The filename of the Hot Update Chunks. They are inside the output.path directory.',
+13:13:06          |         type: 'string',
+13:13:06          |         absolutePath: false
+13:13:06          |       },
+13:13:06          |       HotUpdateGlobal: {
+13:13:06          |         description: 'The global variable used by webpack for loading of hot update chunks.',
+13:13:06          |         type: 'string'
+13:13:06          |       },
+13:13:06          |       HotUpdateMainFilename: {
+13:13:06          |         description: "The filename of the Hot Update Main File. It is inside the 'output.path' directory.",
+13:13:06          |         type: 'string',
+13:13:06          |         absolutePath: false
+13:13:06          |       },
+13:13:06          |       HttpUriOptions: {
+13:13:06          |         description: 'Options for building http resources.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           cacheLocation: {
+13:13:06          |             description: "Location where resource content is stored for lockfile entries. It's also possible to disable storing by passing false.",
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           frozen: {
+13:13:06          |             description: 'When set, anything that would lead to a modification of the lockfile or any resource content, will result in an error.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           lockfileLocation: {
+13:13:06          |             description: 'Location of the lockfile.',
+13:13:06          |             type: 'string',
+13:13:06          |             absolutePath: true
+13:13:06          |           },
+13:13:06          |           upgrade: {
+13:13:06          |             description: 'When set, resources of existing lockfile entries will be fetched and entries will be upgraded when resource content has changed.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       IgnoreWarnings: {
+13:13:06          |         description: 'Ignore specific warnings.',
+13:13:06          |         type: 'array',
+13:13:06          |         items: {
+13:13:06          |           description: 'Ignore specific warnings.',
+13:13:06          |           anyOf: [ [Object], [Object], [Object] ]
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       IgnoreWarningsNormalized: {
+13:13:06          |         description: 'Ignore specific warnings.',
+13:13:06          |         type: 'array',
+13:13:06          |         items: {
+13:13:06          |           description: 'A function to select warnings based on the raw warning instance.',
+13:13:06          |           instanceof: 'Function',
+13:13:06          |           tsType: "((warning: import('../lib/WebpackError'), compilation: import('../lib/Compilation')) => boolean)"
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       Iife: {
+13:13:06          |         description: "Wrap javascript code into IIFE's to avoid leaking into global scope.",
+13:13:06          |         type: 'boolean'
+13:13:06          |       },
+13:13:06          |       ImportFunctionName: {
+13:13:06          |         description: 'The name of the native import() function (can be exchanged for a polyfill).',
+13:13:06          |         type: 'string'
+13:13:06          |       },
+13:13:06          |       ImportMetaName: {
+13:13:06          |         description: 'The name of the native import.meta object (can be exchanged for a polyfill).',
+13:13:06          |         type: 'string'
+13:13:06          |       },
+13:13:06          |       InfrastructureLogging: {
+13:13:06          |         description: 'Options for infrastructure level logging.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           appendOnly: {
+13:13:06          |             description: 'Only appends lines to the output. Avoids updating existing output e. g. for status messages. This option is only used when no custom console is provided.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           colors: {
+13:13:06          |             description: 'Enables/Disables colorful output. This option is only used when no custom console is provided.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           console: {
+13:13:06          |             description: 'Custom console used for logging.',
+13:13:06          |             tsType: 'Console'
+13:13:06          |           },
+13:13:06          |           debug: {
+13:13:06          |             description: 'Enable debug logging for specific loggers.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           level: { description: 'Log level.', enum: [Array] },
+13:13:06          |           stream: {
+13:13:06          |             description: 'Stream used for logging output. Defaults to process.stderr. This option is only used when no custom console is provided.',
+13:13:06          |             tsType: 'NodeJS.WritableStream'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       JavascriptParserOptions: {
+13:13:06          |         description: 'Parser options for javascript modules.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: true,
+13:13:06          |         properties: {
+13:13:06          |           amd: { '$ref': '#/definitions/Amd' },
+13:13:06          |           browserify: {
+13:13:06          |             description: 'Enable/disable special handling for browserify bundles.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           commonjs: {
+13:13:06          |             description: 'Enable/disable parsing of CommonJs syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           commonjsMagicComments: {
+13:13:06          |             description: 'Enable/disable parsing of magic comments in CommonJs syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           exprContextCritical: {
+13:13:06          |             description: 'Enable warnings for full dynamic dependencies.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           exprContextRecursive: {
+13:13:06          |             description: 'Enable recursive directory lookup for full dynamic dependencies.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           exprContextRegExp: {
+13:13:06          |             description: 'Sets the default regular expression for full dynamic dependencies.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           exprContextRequest: {
+13:13:06          |             description: 'Set the default request for full dynamic dependencies.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           harmony: {
+13:13:06          |             description: 'Enable/disable parsing of EcmaScript Modules syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           import: {
+13:13:06          |             description: 'Enable/disable parsing of import() syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           node: { '$ref': '#/definitions/Node' },
+13:13:06          |           requireContext: {
+13:13:06          |             description: 'Enable/disable parsing of require.context syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           requireEnsure: {
+13:13:06          |             description: 'Enable/disable parsing of require.ensure syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           requireInclude: {
+13:13:06          |             description: 'Enable/disable parsing of require.include syntax.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           requireJs: {
+13:13:06          |             description: 'Enable/disable parsing of require.js special syntax like require.config, requirejs.config, require.version and requirejs.onError.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           strictExportPresence: {
+13:13:06          |             description: "Emit errors instead of warnings when imported names don't exist in imported module.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           strictThisContextOnImports: {
+13:13:06          |             description: 'Handle the this context correctly according to the spec for namespace objects.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           system: {
+13:13:06          |             description: 'Enable/disable parsing of System.js special syntax like System.import, System.get, System.set and System.register.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           unknownContextCritical: {
+13:13:06          |             description: 'Enable warnings when using the require function in a not statically analyse-able way.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           unknownContextRecursive: {
+13:13:06          |             description: 'Enable recursive directory lookup when using the require function in a not statically analyse-able way.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           unknownContextRegExp: {
+13:13:06          |             description: 'Sets the regular expression when using the require function in a not statically analyse-able way.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           unknownContextRequest: {
+13:13:06          |             description: 'Sets the request when using the require function in a not statically analyse-able way.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           url: {
+13:13:06          |             description: 'Enable/disable parsing of new URL() syntax.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           worker: {
+13:13:06          |             description: 'Disable or configure parsing of WebWorker syntax like new Worker() or navigator.serviceWorker.register().',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           wrappedContextCritical: {
+13:13:06          |             description: 'Enable warnings for partial dynamic dependencies.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           wrappedContextRecursive: {
+13:13:06          |             description: 'Enable recursive directory lookup for partial dynamic dependencies.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           wrappedContextRegExp: {
+13:13:06          |             description: 'Set the inner regular expression for partial dynamic dependencies.',
+13:13:06          |             instanceof: 'RegExp',
+13:13:06          |             tsType: 'RegExp'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       Layer: {
+13:13:06          |         description: 'Specifies the layer in which modules of this entrypoint are placed.',
+13:13:06          |         anyOf: [ { enum: [Array] }, { type: 'string', minLength: 1 } ]
+13:13:06          |       },
+13:13:06          |       Library: {
+13:13:06          |         description: 'Make the output files a library, exporting the exports of the entry point.',
+13:13:06          |         anyOf: [
+13:13:06          |           { '$ref': '#/definitions/LibraryName' },
+13:13:06          |           { '$ref': '#/definitions/LibraryOptions' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       LibraryCustomUmdCommentObject: {
+13:13:06          |         description: 'Set explicit comments for `commonjs`, `commonjs2`, `amd`, and `root`.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           amd: {
+13:13:06          |             description: 'Set comment for `amd` section in UMD.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           commonjs: {
+13:13:06          |             description: 'Set comment for `commonjs` (exports) section in UMD.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           commonjs2: {
+13:13:06          |             description: 'Set comment for `commonjs2` (module.exports) section in UMD.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           root: {
+13:13:06          |             description: 'Set comment for `root` (global variable) section in UMD.',
+13:13:06          |             type: 'string'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       LibraryCustomUmdObject: {
+13:13:06          |         description: 'Description object for all UMD variants of the library name.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           amd: {
+13:13:06          |             description: 'Name of the exposed AMD library in the UMD.',
+13:13:06          |             type: 'string',
+13:13:06          |             minLength: 1
+13:13:06          |           },
+13:13:06          |           commonjs: {
+13:13:06          |             description: 'Name of the exposed commonjs export in the UMD.',
+13:13:06          |             type: 'string',
+13:13:06          |             minLength: 1
+13:13:06          |           },
+13:13:06          |           root: {
+13:13:06          |             description: 'Name of the property exposed globally by a UMD library.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       LibraryExport: {
+13:13:06          |         description: 'Specify which export should be exposed as library.',
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object] },
+13:13:06          |           { type: 'string', minLength: 1 }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       LibraryName: {
+13:13:06          |         description: 'The name of the library (some types allow unnamed libraries too).',
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object], minItems: 1 },
+13:13:06          |           { type: 'string', minLength: 1 },
+13:13:06          |           { '$ref': '#/definitions/LibraryCustomUmdObject' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       LibraryOptions: {
+13:13:06          |         description: 'Options for library.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           auxiliaryComment: { '$ref': '#/definitions/AuxiliaryComment' },
+13:13:06          |           export: { '$ref': '#/definitions/LibraryExport' },
+13:13:06          |           name: { '$ref': '#/definitions/LibraryName' },
+13:13:06          |           type: { '$ref': '#/definitions/LibraryType' },
+13:13:06          |           umdNamedDefine: { '$ref': '#/definitions/UmdNamedDefine' }
+13:13:06          |         },
+13:13:06          |         required: [ 'type' ]
+13:13:06          |       },
+13:13:06          |       LibraryType: {
+13:13:06          |         description: "Type of library (types included by default are 'var', 'module', 'assign', 'assign-properties', 'this', 'window', 'self', 'global', 'commonjs', 'commonjs2', 'commonjs-module', 'amd', 'amd-require', 'umd', 'umd2', 'jsonp', 'system', but others might be added by plugins).",
+13:13:06          |         anyOf: [ { enum: [Array] }, { type: 'string' } ]
+13:13:06          |       },
+13:13:06          |       Loader: {
+13:13:06          |         description: 'Custom values available in the loader context.',
+13:13:06          |         type: 'object'
+13:13:06          |       },
+13:13:06          |       MemoryCacheOptions: {
+13:13:06          |         description: 'Options object for in-memory caching.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           maxGenerations: {
+13:13:06          |             description: 'Number of generations unused cache entries stay in memory cache at minimum (1 = may be removed after unused for a single compilation, ..., Infinity: kept forever).',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 1
+13:13:06          |           },
+13:13:06          |           type: { description: 'In memory caching.', enum: [Array] }
+13:13:06          |         },
+13:13:06          |         required: [ 'type' ]
+13:13:06          |       },
+13:13:06          |       Mode: {
+13:13:06          |         description: 'Enable production optimizations or development hints.',
+13:13:06          |         enum: [ 'development', 'production', 'none' ]
+13:13:06          |       },
+13:13:06          |       ModuleFilterItemTypes: {
+13:13:06          |         description: 'Filtering value, regexp or function.',
+13:13:06          |         cli: { helper: true },
+13:13:06          |         anyOf: [
+13:13:06          |           { instanceof: 'RegExp', tsType: 'RegExp' },
+13:13:06          |           { type: 'string', absolutePath: false },
+13:13:06          |           {
+13:13:06          |             instanceof: 'Function',
+13:13:06          |             tsType: "((name: string, module: import('../lib/stats/DefaultStatsFactoryPlugin').StatsModule, type: 'module' | 'chunk' | 'root-of-chunk' | 'nested') => boolean)"
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       ModuleFilterTypes: {
+13:13:06          |         description: 'Filtering modules.',
+13:13:06          |         cli: { helper: true },
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object] },
+13:13:06          |           { '$ref': '#/definitions/ModuleFilterItemTypes' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       ModuleOptions: {
+13:13:06          |         description: 'Options affecting the normal modules (`NormalModuleFactory`).',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           defaultRules: {
+13:13:06          |             description: 'An array of rules applied by default for modules.',
+13:13:06          |             cli: [Object],
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           exprContextCritical: {
+13:13:06          |             description: 'Enable warnings for full dynamic dependencies.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           exprContextRecursive: {
+13:13:06          |             description: "Enable recursive directory lookup for full dynamic dependencies. Deprecated: This option has moved to 'module.parser.javascript.exprContextRecursive'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           exprContextRegExp: {
+13:13:06          |             description: "Sets the default regular expression for full dynamic dependencies. Deprecated: This option has moved to 'module.parser.javascript.exprContextRegExp'.",
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           exprContextRequest: {
+13:13:06          |             description: "Set the default request for full dynamic dependencies. Deprecated: This option has moved to 'module.parser.javascript.exprContextRequest'.",
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           generator: { '$ref': '#/definitions/GeneratorOptionsByModuleType' },
+13:13:06          |           noParse: { '$ref': '#/definitions/NoParse' },
+13:13:06          |           parser: { '$ref': '#/definitions/ParserOptionsByModuleType' },
+13:13:06          |           rules: {
+13:13:06          |             description: 'An array of rules applied for modules.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           strictExportPresence: {
+13:13:06          |             description: "Emit errors instead of warnings when imported names don't exist in imported module. Deprecated: This option has moved to 'module.parser.javascript.strictExportPresence'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           strictThisContextOnImports: {
+13:13:06          |             description: "Handle the this context correctly according to the spec for namespace objects. Deprecated: This option has moved to 'module.parser.javascript.strictThisContextOnImports'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           unknownContextCritical: {
+13:13:06          |             description: "Enable warnings when using the require function in a not statically analyse-able way. Deprecated: This option has moved to 'module.parser.javascript.unknownContextCritical'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           unknownContextRecursive: {
+13:13:06          |             description: "Enable recursive directory lookup when using the require function in a not statically analyse-able way. Deprecated: This option has moved to 'module.parser.javascript.unknownContextRecursive'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           unknownContextRegExp: {
+13:13:06          |             description: "Sets the regular expression when using the require function in a not statically analyse-able way. Deprecated: This option has moved to 'module.parser.javascript.unknownContextRegExp'.",
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           unknownContextRequest: {
+13:13:06          |             description: "Sets the request when using the require function in a not statically analyse-able way. Deprecated: This option has moved to 'module.parser.javascript.unknownContextRequest'.",
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           unsafeCache: {
+13:13:06          |             description: 'Cache the resolving of module requests.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           wrappedContextCritical: {
+13:13:06          |             description: "Enable warnings for partial dynamic dependencies. Deprecated: This option has moved to 'module.parser.javascript.wrappedContextCritical'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           wrappedContextRecursive: {
+13:13:06          |             description: "Enable recursive directory lookup for partial dynamic dependencies. Deprecated: This option has moved to 'module.parser.javascript.wrappedContextRecursive'.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           wrappedContextRegExp: {
+13:13:06          |             description: "Set the inner regular expression for partial dynamic dependencies. Deprecated: This option has moved to 'module.parser.javascript.wrappedContextRegExp'.",
+13:13:06          |             instanceof: 'RegExp',
+13:13:06          |             tsType: 'RegExp'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       ModuleOptionsNormalized: {
+13:13:06          |         description: 'Options affecting the normal modules (`NormalModuleFactory`).',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           defaultRules: {
+13:13:06          |             description: 'An array of rules applied by default for modules.',
+13:13:06          |             cli: [Object],
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           generator: { '$ref': '#/definitions/GeneratorOptionsByModuleType' },
+13:13:06          |           noParse: { '$ref': '#/definitions/NoParse' },
+13:13:06          |           parser: { '$ref': '#/definitions/ParserOptionsByModuleType' },
+13:13:06          |           rules: {
+13:13:06          |             description: 'An array of rules applied for modules.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           unsafeCache: {
+13:13:06          |             description: 'Cache the resolving of module requests.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           }
+13:13:06          |         },
+13:13:06          |         required: [ 'defaultRules', 'generator', 'parser', 'rules' ]
+13:13:06          |       },
+13:13:06          |       Name: {
+13:13:06          |         description: 'Name of the configuration. Used when loading multiple configurations.',
+13:13:06          |         type: 'string'
+13:13:06          |       },
+13:13:06          |       NoParse: {
+13:13:06          |         description: "Don't parse files matching. It's matched against the full resolved request.",
+13:13:06          |         anyOf: [
+13:13:06          |           { type: 'array', items: [Object], minItems: 1 },
+13:13:06          |           {
+13:13:06          |             description: 'A regular expression, when matched the module is not parsed.',
+13:13:06          |             instanceof: 'RegExp',
+13:13:06          |             tsType: 'RegExp'
+13:13:06          |           },
+13:13:06          |           {
+13:13:06          |             description: 'An absolute path, when the module starts with this path it is not parsed.',
+13:13:06          |             type: 'string',
+13:13:06          |             absolutePath: true
+13:13:06          |           },
+13:13:06          |           { instanceof: 'Function', tsType: 'Function' }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       Node: {
+13:13:06          |         description: 'Include polyfills or mocks for various node stuff.',
+13:13:06          |         anyOf: [ { enum: [Array] }, { '$ref': '#/definitions/NodeOptions' } ]
+13:13:06          |       },
+13:13:06          |       NodeOptions: {
+13:13:06          |         description: 'Options object for node compatibility features.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           __dirname: {
+13:13:06          |             description: "Include a polyfill for the '__dirname' variable.",
+13:13:06          |             enum: [Array]
+13:13:06          |           },
+13:13:06          |           __filename: {
+13:13:06          |             description: "Include a polyfill for the '__filename' variable.",
+13:13:06          |             enum: [Array]
+13:13:06          |           },
+13:13:06          |           global: {
+13:13:06          |             description: "Include a polyfill for the 'global' variable.",
+13:13:06          |             type: 'boolean'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       Optimization: {
+13:13:06          |         description: 'Enables/Disables integrated optimizations.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           checkWasmTypes: {
+13:13:06          |             description: 'Check for incompatible wasm types when importing/exporting from/to ESM.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           chunkIds: {
+13:13:06          |             description: 'Define the algorithm to choose chunk ids (named: readable ids for better debugging, deterministic: numeric hash ids for better long term caching, size: numeric ids focused on minimal initial download size, total-size: numeric ids focused on minimal total download size, false: no algorithm used, as custom one can be provided via plugin).',
+13:13:06          |             enum: [Array]
+13:13:06          |           },
+13:13:06          |           concatenateModules: {
+13:13:06          |             description: 'Concatenate modules when possible to generate less modules, more efficient code and enable more optimizations by the minimizer.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           emitOnErrors: {
+13:13:06          |             description: 'Emit assets even when errors occur. Critical errors are emitted into the generated code and will cause errors at runtime.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           flagIncludedChunks: {
+13:13:06          |             description: 'Also flag chunks as loaded which contain a subset of the modules.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           innerGraph: {
+13:13:06          |             description: 'Creates a module-internal dependency graph for top level symbols, exports and imports, to improve unused exports detection.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           mangleExports: {
+13:13:06          |             description: 'Rename exports when possible to generate shorter code (depends on optimization.usedExports and optimization.providedExports, true/"deterministic": generate short deterministic names optimized for caching, "size": generate the shortest possible names).',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           mangleWasmImports: {
+13:13:06          |             description: 'Reduce size of WASM by changing imports to shorter strings.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           mergeDuplicateChunks: {
+13:13:06          |             description: 'Merge chunks which contain the same modules.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           minimize: {
+13:13:06          |             description: 'Enable minimizing the output. Uses optimization.minimizer.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           minimizer: {
+13:13:06          |             description: 'Minimizer(s) to use for minimizing the output.',
+13:13:06          |             type: 'array',
+13:13:06          |             cli: [Object],
+13:13:06          |             items: [Object]
+13:13:06          |           },
+13:13:06          |           moduleIds: {
+13:13:06          |             description: 'Define the algorithm to choose module ids (natural: numeric ids in order of usage, named: readable ids for better debugging, hashed: (deprecated) short hashes as ids for better long term caching, deterministic: numeric hash ids for better long term caching, size: numeric ids focused on minimal initial download size, false: no algorithm used, as custom one can be provided via plugin).',
+13:13:06          |             enum: [Array]
+13:13:06          |           },
+13:13:06          |           noEmitOnErrors: {
+13:13:06          |             description: "Avoid emitting assets when errors occur (deprecated: use 'emitOnErrors' instead).",
+13:13:06          |             type: 'boolean',
+13:13:06          |             cli: [Object]
+13:13:06          |           },
+13:13:06          |           nodeEnv: {
+13:13:06          |             description: 'Set process.env.NODE_ENV to a specific value.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           portableRecords: {
+13:13:06          |             description: 'Generate records with relative paths to be able to move the context folder.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           providedExports: {
+13:13:06          |             description: 'Figure out which exports are provided by modules to generate more efficient code.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           realContentHash: {
+13:13:06          |             description: 'Use real [contenthash] based on final content of the assets.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           removeAvailableModules: {
+13:13:06          |             description: 'Removes modules from chunks when these modules are already included in all parents.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           removeEmptyChunks: {
+13:13:06          |             description: 'Remove chunks which are empty.',
+13:13:06          |             type: 'boolean'
+13:13:06 web.1    | terminated by SIGTERM
+13:13:06          |           },
+13:13:06          |           runtimeChunk: { '$ref': '#/definitions/OptimizationRuntimeChunk' },
+13:13:06          |           sideEffects: {
+13:13:06          |             description: "Skip over modules which contain no side effects when exports are not used (false: disabled, 'flag': only use manually placed side effects flag, true: also analyse source code for side effects).",
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           splitChunks: {
+13:13:06          |             description: 'Optimize duplication and caching by splitting chunks by shared modules and cache group.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           usedExports: {
+13:13:06          |             description: 'Figure out which exports are used by modules to mangle export names, omit unused exports and generate more efficient code (true: analyse used exports for each runtime, "global": analyse exports globally for all runtimes combined).',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       OptimizationRuntimeChunk: {
+13:13:06          |         description: 'Create an additional chunk which contains only the webpack runtime and chunk hash maps.',
+13:13:06          |         anyOf: [
+13:13:06          |           { enum: [Array] },
+13:13:06          |           { type: 'boolean' },
+13:13:06          |           {
+13:13:06          |             type: 'object',
+13:13:06          |             additionalProperties: false,
+13:13:06          |             properties: [Object]
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       OptimizationRuntimeChunkNormalized: {
+13:13:06          |         description: 'Create an additional chunk which contains only the webpack runtime and chunk hash maps.',
+13:13:06          |         anyOf: [
+13:13:06          |           { enum: [Array] },
+13:13:06          |           {
+13:13:06          |             type: 'object',
+13:13:06          |             additionalProperties: false,
+13:13:06          |             properties: [Object]
+13:13:06          |           }
+13:13:06          |         ]
+13:13:06          |       },
+13:13:06          |       OptimizationSplitChunksCacheGroup: {
+13:13:06          |         description: 'Options object for describing behavior of a cache group selecting modules that should be cached together.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           automaticNameDelimiter: {
+13:13:06          |             description: 'Sets the name delimiter for created chunks.',
+13:13:06          |             type: 'string',
+13:13:06          |             minLength: 1
+13:13:06          |           },
+13:13:06          |           chunks: {
+13:13:06          |             description: 'Select chunks for determining cache group content (defaults to "initial", "initial" and "all" requires adding these chunks to the HTML).',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           enforce: {
+13:13:06          |             description: 'Ignore minimum size, minimum chunks and maximum requests and always create chunks for this cache group.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           enforceSizeThreshold: {
+13:13:06          |             description: 'Size threshold at which splitting is enforced and other restrictions (minRemainingSize, maxAsyncRequests, maxInitialRequests) are ignored.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           filename: {
+13:13:06          |             description: 'Sets the template for the filename for created chunks.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           idHint: {
+13:13:06          |             description: 'Sets the hint for chunk id.',
+13:13:06          |             type: 'string'
+13:13:06          |           },
+13:13:06          |           layer: {
+13:13:06          |             description: 'Assign modules to a cache group by module layer.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           maxAsyncRequests: {
+13:13:06          |             description: 'Maximum number of requests which are accepted for on-demand loading.',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 1
+13:13:06          |           },
+13:13:06          |           maxAsyncSize: {
+13:13:06          |             description: 'Maximal size hint for the on-demand chunks.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           maxInitialRequests: {
+13:13:06          |             description: 'Maximum number of initial chunks which are accepted for an entry point.',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 1
+13:13:06          |           },
+13:13:06          |           maxInitialSize: {
+13:13:06          |             description: 'Maximal size hint for the initial chunks.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           maxSize: {
+13:13:06          |             description: 'Maximal size hint for the created chunks.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           minChunks: {
+13:13:06          |             description: "Minimum number of times a module has to be duplicated until it's considered for splitting.",
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 1
+13:13:06          |           },
+13:13:06          |           minRemainingSize: {
+13:13:06          |             description: 'Minimal size for the chunks the stay after moving the modules to a new chunk.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           minSize: {
+13:13:06          |             description: 'Minimal size for the created chunk.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           name: {
+13:13:06          |             description: 'Give chunks for this cache group a name (chunks with equal name are merged).',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           priority: {
+13:13:06          |             description: 'Priority of this cache group.',
+13:13:06          |             type: 'number'
+13:13:06          |           },
+13:13:06          |           reuseExistingChunk: {
+13:13:06          |             description: 'Try to reuse existing chunk (with name) when it has matching modules.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           test: {
+13:13:06          |             description: 'Assign modules to a cache group by module name.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           type: {
+13:13:06          |             description: 'Assign modules to a cache group by module type.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           usedExports: {
+13:13:06          |             description: 'Compare used exports when checking common modules. Modules will only be put in the same chunk when exports are equal.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           }
+13:13:06          |         }
+13:13:06          |       },
+13:13:06          |       OptimizationSplitChunksGetCacheGroups: {
+13:13:06          |         description: 'A function returning cache groups.',
+13:13:06          |         instanceof: 'Function',
+13:13:06          |         tsType: "((module: import('../lib/Module')) => OptimizationSplitChunksCacheGroup | OptimizationSplitChunksCacheGroup[] | void)"
+13:13:06          |       },
+13:13:06          |       OptimizationSplitChunksOptions: {
+13:13:06          |         description: 'Options object for splitting chunks into smaller chunks.',
+13:13:06          |         type: 'object',
+13:13:06          |         additionalProperties: false,
+13:13:06          |         properties: {
+13:13:06          |           automaticNameDelimiter: {
+13:13:06          |             description: 'Sets the name delimiter for created chunks.',
+13:13:06          |             type: 'string',
+13:13:06          |             minLength: 1
+13:13:06          |           },
+13:13:06          |           cacheGroups: {
+13:13:06          |             description: "Assign modules to a cache group (modules from different cache groups are tried to keep in separate chunks, default categories: 'default', 'defaultVendors').",
+13:13:06          |             type: 'object',
+13:13:06          |             additionalProperties: [Object],
+13:13:06          |             not: [Object]
+13:13:06          |           },
+13:13:06          |           chunks: {
+13:13:06          |             description: 'Select chunks for determining shared modules (defaults to "async", "initial" and "all" requires adding these chunks to the HTML).',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           defaultSizeTypes: {
+13:13:06          |             description: 'Sets the size types which are used when a number is used for sizes.',
+13:13:06          |             type: 'array',
+13:13:06          |             items: [Object],
+13:13:06          |             minItems: 1
+13:13:06          |           },
+13:13:06          |           enforceSizeThreshold: {
+13:13:06          |             description: 'Size threshold at which splitting is enforced and other restrictions (minRemainingSize, maxAsyncRequests, maxInitialRequests) are ignored.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           fallbackCacheGroup: {
+13:13:06          |             description: 'Options for modules not selected by any other cache group.',
+13:13:06          |             type: 'object',
+13:13:06          |             additionalProperties: false,
+13:13:06          |             properties: [Object]
+13:13:06          |           },
+13:13:06          |           filename: {
+13:13:06          |             description: 'Sets the template for the filename for created chunks.',
+13:13:06          |             anyOf: [Array]
+13:13:06          |           },
+13:13:06          |           hidePathInfo: {
+13:13:06          |             description: 'Prevents exposing path info when creating names for parts splitted by maxSize.',
+13:13:06          |             type: 'boolean'
+13:13:06          |           },
+13:13:06          |           maxAsyncRequests: {
+13:13:06          |             description: 'Maximum number of requests which are accepted for on-demand loading.',
+13:13:06          |             type: 'number',
+13:13:06          |             minimum: 1
+13:13:06          |           },
+13:13:06          |           maxAsyncSize: {
+13:13:06          |             description: 'Maximal size hint for the on-demand chunks.',
+13:13:06          |             oneOf: [Array]
+13:13:06          |           },
+13:13:06          |           maxInitialRequests: {
+13:13:06          |             description: 'Maximum number of initial chunks which are accepted for an entry point.',
+13:13:06          |             type: 'number',
+13:13:06          |  
