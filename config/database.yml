@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: lyzio_dashboard_production
-  username: lyzio_dashboard
+  database: lyzio_dashboard
+  username: postgres
   password: <%= ENV['LYZIO_DASHBOARD_DATABASE_PASSWORD'] %>
