@@ -21,7 +21,6 @@ import { zonedTimeToUtc } from 'date-fns-tz'
 
 import {add} from 'date-fns';
 
-import 'antd/dist/antd.css';
 import createMeeting from '../utils/CreateMeeting';
 
 import { message } from 'antd';
