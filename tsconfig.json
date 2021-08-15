@@ -20,6 +20,7 @@
         "strictNullChecks": true,
     },
     "exclude": [
+        "vendor",
         "**/*.spec.ts",
         "node_modules",
         "public"
